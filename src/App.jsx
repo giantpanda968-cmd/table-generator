@@ -8,7 +8,7 @@ const App = () => {
     if (input) setTable(input);
   };
   const reset =(e)=>{
-    setInput(generate)
+    setTable(generate)
     setInput(e.target.value)
   }
   return (
